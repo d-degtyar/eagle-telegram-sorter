@@ -1,0 +1,11 @@
+# Release archives
+*.zip
+
+# Progress and settings files the plugin writes next to exports or in the home folder
+telegram-sorter-state.json
+.eagle-telegram-sorter.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

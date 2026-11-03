@@ -1,0 +1,13 @@
+{ "name": "Sample channel", "type": "private_channel", "id": 1234567890, "messages": [
+  { "id": 1, "type": "service", "date": "2025-03-01T10:00:00", "date_unixtime": "1740823200", "action": "create_channel", "text": "", "text_entities": [] },
+  { "id": 2, "type": "message", "date": "2025-03-01T10:05:00", "date_unixtime": "1740823500", "from": "Sample channel", "from_id": "channel1234567890",
+    "photo": "photos/photo_1.jpg", "text": ["Logo animation ", {"type": "hashtag", "text": "#logo"}],
+    "text_entities": [{"type": "plain", "text": "Logo animation "}, {"type": "hashtag", "text": "#logo"}] },
+  { "id": 3, "type": "message", "date": "2025-03-01T10:05:00", "date_unixtime": "1740823500", "from": "Sample channel", "from_id": "channel1234567890",
+    "file": "video_files/clip.mp4", "media_type": "video_file", "mime_type": "video/mp4", "text": "", "text_entities": [] },
+  { "id": 4, "type": "message", "date": "2025-03-02T09:00:00", "date_unixtime": "1740906000", "from": "Sample channel", "from_id": "channel1234567890",
+    "text": ["Read: ", {"type": "link", "text": "https://example.com/article"}, " and ", {"type": "text_link", "text": "this", "href": "https://example.org/other"}],
+    "text_entities": [{"type": "plain", "text": "Read: "}, {"type": "link", "text": "https://example.com/article"}, {"type": "plain", "text": " and "}, {"type": "text_link", "text": "this", "href": "https://example.org/other"}] },
+  { "id": 5, "type": "message", "date": "2025-03-03T08:00:00", "date_unixtime": "1740988800", "from": "Sample channel", "from_id": "channel1234567890",
+    "file": "voice_messages/audio_1.ogg", "media_type": "voice_message", "mime_type": "audio/ogg", "text": "", "text_entities": [] }
+]}
